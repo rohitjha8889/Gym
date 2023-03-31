@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    /* reset css  */
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    /* background-color: #201c1c; */
+    height: 70px;
+    border-radius: 30px;
+    margin-top: -16px;
+
+}
+
+body {
+    background: url(Image/abs-1850926_1920.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+
+}
+
+
+.left {
+    /* border: 2px solid red; */
+    color: white;
+    display: inline-block;
+    height: 70px;
+    width: 120px;
+    position: absolute;
+    top: 6px;
+    left: 34px;
+    
+
+} 
+
+.left img{
+    width:40px;
+    filter: invert(100%);
+    padding-left: 20px;
+   
+}
+.left div{
+    line-height: 0px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 18px auto;
+    /* border: 2px solid green; */
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 19px;
+    position: sticky;
+
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+.navbar li a:hover, .navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+    
+}
+.right {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    color: white;
+    position: absolute;
+    top: 18px;
+    right: 34px;
+    
+}
+.btn{
+    padding: 8px 22px;
+    background-color: rgb(37, 29, 49);
+    color: white;
+    border: 2px solid white;
+    font-size: 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(56, 20, 114);
+}
+
+
+.container{
+
+    border: 2px solid white;
+    color: white;
+    padding: 34px 30px;
+    height: auto;
+    width: 40%;
+    border-radius: 20px;
+    margin: 89PX 649PX;
+}
+
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 14px;
+    border: 2px solid green;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+.container button{
+   display: block;
+   width: 23%;
+   margin: 34px 180px;
+
+}
